@@ -1,0 +1,235 @@
+@font-face {
+    font-family: naofont;
+    src: url(naofont.ttf);
+}
+
+
+body{
+    margin:0px;
+    background: rgb(69,69,69);
+    background: radial-gradient(circle, rgba(69,69,69,1) 0%, rgba(24,24,24,1) 100%);
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #b9b9b9;
+    font-family: "Work Sans", sans-serif;
+  }
+
+
+
+p{
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+
+
+}
+
+
+
+section{
+    height: 100vh;
+}
+
+h1{
+    font-family: naofont;
+}
+
+#home{
+    background: rgb(69,69,69);
+    background: radial-gradient(circle, rgba(69,69,69,1) 0%, rgba(24,24,24,1) 100%);
+}
+
+#title{
+    padding-top: 50px;
+    padding-left: 140px;
+    font-size: 40px;
+    float: left;
+    color: #9cfc7c;
+
+    flex-direction: column;
+
+}
+
+#subtitle{
+    max-width: 600px;
+    font-family: "Work Sans", sans-serif;
+
+}
+
+
+
+
+header{
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    top: 0;
+    padding-top:15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between; /*importante*/
+}
+
+
+
+header .logo{
+    font-family: naofont;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+/*Navbar*/
+.navigation{
+    font-size: 14px;
+    padding-right: 120px;
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+.nav-button{
+    padding-right: 20px;
+}
+
+.section-nav {
+    height: 100px;
+}
+
+.logo{
+    padding-left: 120px;
+}
+
+
+
+/*Bottoni*/
+
+.btn{
+    padding: 10px 20px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.btn-outline{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 0px;
+}
+
+
+.btn-round {
+    border-radius: 4px ;
+  }
+
+
+/*Testo*/
+.text-white{
+    color: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.secondapagetitle{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: #9cfc7c;
+
+
+}
+
+.txt-title{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    padding-inline-start: 150px;
+    padding-inline-end: 150px;
+}
+
+.txt-standard{
+    font-size: 20px;
+}
+
+
+
+
+
+#imgNao{
+    padding-top: 140px;
+
+    width: 400px;
+    float: right;
+    padding-right: 200px;
+    font-size: 40px;
+}
+
+#discover-btn{
+    text-align: center;
+    position: fixed;
+    position: absolute;
+    display: inline-block;
+    bottom: 0px; 
+
+}
+
+
+.box1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#socials{
+    float: left;
+    width: 600px;
+    margin: auto;
+}
+/*@media screen {
+    
+}*/
+
+
+
+#elenco-social{
+    font-size: 30px;
+}
+
+
+
+
+#sponsor{
+    width: 50px;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #312f2f;
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
