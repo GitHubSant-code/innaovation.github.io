@@ -166,9 +166,8 @@ header .logo{
 
 
 #imgNao{
-    padding-top: 140px;
 
-    width: 400px;
+    width: 500px;
     float: right;
     padding-right: 200px;
     font-size: 40px;
@@ -191,24 +190,18 @@ header .logo{
     gap: 50px;
     padding-left: 150px;
     padding-right: 150px;
-    text-align: justify;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#socials{
-    float: left;
-    width: 600px;
-    margin: auto;
-}
-/*@media screen {
-    
-}*/
-
 
 
 #elenco-social{
-    font-size: 30px;
+    font-size: 35px;
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
@@ -233,3 +226,89 @@ footer{
 }
 
 
+
+@media only screen and (max-width: 600px) {
+    #title{
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        color: #9cfc7c;
+        flex-direction: column;
+    
+    }
+    
+    #subtitle{
+        max-width: 400px;
+        font-family: "Work Sans", sans-serif;
+        font-size: 25px;
+    }
+    
+    
+    
+    
+    header{
+        overflow: hidden;
+        font-family: "Work Sans", sans-serif;
+        top: 0;
+        padding-top:15px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-between; /*importante*/
+    }
+    
+    
+    
+    header .logo{
+        font-family: naofont;
+        text-transform: uppercase;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    
+    
+    /*Navbar*/
+    .navigation{
+        font-size: 14px;
+        padding-right: 120px;
+        float: right;
+        padding-top: 10px;
+    }
+    
+    
+    
+    
+    .nav-button{
+        padding-right: 20px;
+    }
+    
+    .section-nav {
+        height: 100px;
+    }
+    
+    .logo{
+        padding-left: 20px;
+    }
+
+
+    .secondapagetitle{
+        margin: auto;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 20px;
+        color: #9cfc7c;
+    
+    
+    }
+
+    .box1{
+        display:block;
+        justify-content: center;
+        margin: auto;
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 200px;
+    }
+    
+}
