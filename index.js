@@ -20,6 +20,18 @@ $(document).ready(function(){
   });
 });
 
-function topFunction() {
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; }
+
+function myFunction() {
+  var x = document.querySelector(".navigation");
+  var z = document.querySelector(".icon");
+  
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+    y.classList.remove("active");
+    z.classList.remove("close");
+  } else {
+    x.style.display = "flex";
+    y.classList.add("active");
+    z.classList.add("close");
+  }
+}
