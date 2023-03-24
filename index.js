@@ -1,3 +1,4 @@
+
 //Smooth Scrolling code
 $(document).ready(function(){
 
@@ -19,3 +20,6 @@ $(document).ready(function(){
   });
 });
 
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; }
