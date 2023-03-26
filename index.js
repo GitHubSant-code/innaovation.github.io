@@ -35,3 +35,8 @@ function myFunction() {
     z.classList.add("close");
   }
 }
+
+function toggleMenu() {
+  var mobileMenu = document.querySelector('.mobile-menu');
+  mobileMenu.classList.toggle('active');
+}
