@@ -21,22 +21,17 @@ $(document).ready(function(){
 });
 
 
-function myFunction() {
-  var x = document.querySelector(".navigation");
-  var z = document.querySelector(".icon");
-  
-  if (x.style.display === "flex") {
-    x.style.display = "none";
-    y.classList.remove("active");
-    z.classList.remove("close");
-  } else {
-    x.style.display = "flex";
-    y.classList.add("active");
-    z.classList.add("close");
-  }
+
+
+
+
+
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
 }
 
-function toggleMenu() {
-  var mobileMenu = document.querySelector('.mobile-menu');
-  mobileMenu.classList.toggle('active');
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }

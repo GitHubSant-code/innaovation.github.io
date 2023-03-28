@@ -24,20 +24,21 @@
 
     <section id="home">
         <div>
-        <div class="section-nav nav">
             <header>
                 <h2><a href="#" class="logo text-white naofont">Innaovation</a></h2>
-                <div class="navigation">
-                    <a href="#proj" class="nav-button text-uppercase">Info</a>
-                    <a href="#" class="nav-button text-uppercase">team</a>
-                    <a href="#social" class="nav-button text-uppercase">social</a>
-                    <a href="#contatti" class="nav-button btn btn-outline btn-round text-uppercase">contatti</a>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                    <div class="overlay-content text-uppercase">
+                        <a href="#proj" >info</a>
+                        <a href="#differenziata">Raccolta differenziata</a>
+                        <a href="#social">socials</a>
+                        <a href="#contatti">Contact</a>
+                    </div>
+  
                 </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
+                <a onclick="openNav()" class="button-nav"><i class="fa-solid fa-bars"></i></a>
             </header>
-        </div>
         <div id="title">
             <h1>The <br> future <br> is nao <i class="fa-solid fa-leaf"></i></h1>
             <div>
@@ -81,7 +82,7 @@
 
 
     <h1 class="text-uppercase text-white secondapagetitle text-center">La raccolta differenziata</h1>
-    <div class="box1 padding-standard">
+    <div class="box1 padding-standard" id="differenziata">
         <div>
             <h1 class="text-white text-uppercase titoli-min">plastica:</h1>
             <p class="txt-standard" style="max-width: 800px; margin:auto;">La plastica è tra gli elementi che più si prestano a un riciclo completo: ad esempio bottiglie e flaconi.</p>
@@ -114,7 +115,7 @@
         <p class="txt-standard text-center" style="max-width: 800px;  margin:auto;">I materiali unti e sporchi, i piatti e le posate, i cd e i dvd, i giocattoli rotti di piccole dimensioni, i fiori finti, gli spazzolini e i sacchetti dell'aspirapolvere vanno dunque nell'indifferenzia</p>
     </div>
 
-    <div style="height:100vh;" class="padding-standard">
+    <div style="height:100vh;" class="padding-standard" id="social">
         <h1 class="text-uppercase text-white secondapagetitle text-center">Seguici sui nostri social:</h1>
 
 
