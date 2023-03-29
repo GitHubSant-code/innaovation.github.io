@@ -1,37 +1,27 @@
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
 
-//Smooth Scrolling code
-$(document).ready(function(){
-
-  $("a").on('click', function(event) {
-
-    if (this.hash !== "") {
-      event.preventDefault();
-
-      var hash = this.hash;
-
-     
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        window.location.hash = hash;
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
       });
-    } // End if
   });
 });
 
 
+mybutton = document.getElementById("Top-btn");
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; }
 
 
 
 
-
-/* Open when someone clicks on the span element */
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
